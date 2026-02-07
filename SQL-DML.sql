@@ -86,3 +86,10 @@ WHERE
     roll_number = 101;      -- select details of students with roll number 101
 
 ------------------------------------------------------------------------
+
+DELETE FROM 
+	student
+WHERE
+	roll_number = 101;
+
+------------------------------------------------------------------------
