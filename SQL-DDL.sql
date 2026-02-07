@@ -5,6 +5,8 @@
 ------------------------------------------------------------------------
 --          DDL - Data Definition Language
 ------------------------------------------------------------------------
+-- Define (Create) or Manage (Update) database structure or schema 
+--
 --          ----------------------------------------
 --          | Command  | Description               |
 --          |----------|---------------------------|
@@ -65,14 +67,6 @@ ALTER TABLE student
 
 ALTER TABLE student
 	DROP COLUMN phone_number;       -- delete phone_number column
-
-------------------------------------------------------------------------
-
--- add a new record (row/data) to student table
-INSERT INTO student 
-	(id, first_name, last_name, age, roll_number, address)      -- list & order of values to add
-VALUES
-	(1, 'John', 'Smith', 12, 101, 'Chennai');                   -- values
 
 ------------------------------------------------------------------------
     
