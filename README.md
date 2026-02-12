@@ -1,14 +1,27 @@
 # SQL
 
 ### DDL
-- [CREATE DATABASE](https://github.com/VallarasuS/payil-sql/blob/5ca86ac4c280a24c59881ab242df0e9d8d102467/SQL-DDL.sql#L35)
-- [DROP DATABASE](https://github.com/VallarasuS/payil-sql/blob/5ca86ac4c280a24c59881ab242df0e9d8d102467/SQL-DDL.sql#L38)
-- [CREATE TABLE](https://github.com/VallarasuS/payil-sql/blob/5ca86ac4c280a24c59881ab242df0e9d8d102467/SQL-DDL.sql#L48)
-- [ALTER TABLE](https://github.com/VallarasuS/payil-sql/blob/5ca86ac4c280a24c59881ab242df0e9d8d102467/SQL-DDL.sql#L64)
-- [TRUNCATE TABLE](https://github.com/VallarasuS/payil-sql/blob/5ca86ac4c280a24c59881ab242df0e9d8d102467/SQL-DDL.sql#L74)
+
+## Database & Table Basics
+
+| Command                              | Description        |
+|--------------------------------------|--------------------|
+| [CREATE DATABASE](./SQL-DDL.sql#L35) | to create a db     |
+| [DROP DATABASE](./SQL-DDL.sql#L38)   | to delete a db     |
+| [CREATE TABLE](./SQL-DDL.sql#L48)    | to create a table  |
+| [ALTER TABLE](./SQL-DDL.sql#L64)     | to modify a table  |
+| [TRUNCATE TABLE](./SQL-DDL.sql#L74)  | to remove all data |
+
+## Constraints
+
+- [NOT NULL]()
+- [UNIQUE]()
+- [CHECK]()
+- [PRIMARY KEY]()
+- [FOREIGN KEY]()
 
 ### DML
-- [SELECT](https://github.com/VallarasuS/payil-sql/blob/24e8f4dc86192b4b63aa3642c4c21c2e3dbe1453/SQL-DML.sql#L81)
-- [INSERT](https://github.com/VallarasuS/payil-sql/blob/24e8f4dc86192b4b63aa3642c4c21c2e3dbe1453/SQL-DML.sql#L27)
-- [UPDATE](https://github.com/VallarasuS/payil-sql/blob/24e8f4dc86192b4b63aa3642c4c21c2e3dbe1453/SQL-DML.sql#L56)
-- [DELETE](https://github.com/VallarasuS/payil-sql/blob/24e8f4dc86192b4b63aa3642c4c21c2e3dbe1453/SQL-DML.sql#L90)
+- [SELECT](./SQL-DML.sql#L81)
+- [INSERT](./SQL-DML.sql#L27)
+- [UPDATE](./SQL-DML.sql#L56)
+- [DELETE](./SQL-DML.sql#L90)
