@@ -14,11 +14,11 @@
 
 ## Constraints
 
-- [NOT NULL]()
-- [UNIQUE]()
-- [CHECK]()
-- [PRIMARY KEY]()
-- [FOREIGN KEY]()
+- [NOT NULL](./SQL-Constraints.sql#L29)
+- [UNIQUE](./SQL-Constraints.sql#L28)
+- [CHECK](./SQL-Constraints.sql#L31)
+- PRIMARY KEY
+- FOREIGN KEY
 
 ### DML
 - [SELECT](./SQL-DML.sql#L81)

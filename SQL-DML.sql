@@ -90,6 +90,6 @@ WHERE
 DELETE FROM 
 	student
 WHERE
-	roll_number = 101;
+	roll_number = 101;		-- CAUTION - with-out where clause all data will be lost
 
 ------------------------------------------------------------------------
