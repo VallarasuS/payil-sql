@@ -32,3 +32,33 @@ CREATE TABLE student (
     roll_number     INT                 UNIQUE NOT NULL,        -- null and duplicates not allowed
     address         VARCHAR(250)
 );
+
+------------------------------------------------------------------------
+
+-- Add a constraint
+
+ALTER TABLE student
+    ALTER COLUMN last_name SET NOT NULL;
+
+------------------------------------------------------------------------
+
+-- Add a constraint
+
+ALTER TABLE student
+    ADD UNIQUE (first_name);
+
+ALTER TABLE student
+    ADD CONSTRAINT student_first_name_unique UNIQUE (first_name);
+
+------------------------------------------------------------------------
+
+-- Drop and Add a constraint
+
+ALTER TABLE 
+	student
+DROP CONSTRAINT 
+	student_age_check,
+ADD CONSTRAINT 
+	student_age_check CHECK (age > 15);
+
+------------------------------------------------------------------------
