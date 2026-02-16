@@ -80,4 +80,19 @@ SELECT * FROM
 WHERE 
 	first_name LIKE '%an'
 
+SELECT * FROM 
+    student 
+WHERE 
+    first_name LIKE '%ar';
+
+SELECT * FROM 
+    student 
+WHERE 
+    first_name LIKE 'Ku%';
+
+SELECT * FROM 
+    student 
+WHERE 
+    first_name LIKE '%ar%';
+
 ------------------------------------------------------------------------ 

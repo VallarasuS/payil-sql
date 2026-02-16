@@ -63,3 +63,11 @@ VALUES
     (48, 'Foam Roller 30cm', 'Sports', 19.99, 9, '2024-11-20', 'Hyderabad'),
     (49, 'Insulated Lunch Box', 'Home', 29.99, 6, '2024-11-21', 'Delhi'),
     (50, 'True Wireless Earphones', 'Electronics', 89.99, 4, '2024-11-22', 'Hyderabad');
+
+
+    -- Find out the following
+    --      total orders (volume / number of orders)
+    --      order value (price total / sum)
+    --      lowest order value
+    --      largest order value
+    --      find all the above just for 'Chennai' region
