@@ -25,3 +25,9 @@
 - [INSERT](./SQL-DML.sql#L27)
 - [UPDATE](./SQL-DML.sql#L56)
 - [DELETE](./SQL-DML.sql#L90)
+
+### WHERE
+
+### GROUP BY
+
+### HAVING
