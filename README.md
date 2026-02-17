@@ -2,16 +2,19 @@
 
 ```SQL
 SELECT 
-	-- 	*
+    --  *
 	-- 	id, product, price
 	--  MAX(price), COUNT, MIN, MAX, AVG, SUM
 	-- 	price * 100
 FROM 
-	sales
+	-- sales
+    -- table
 WHERE
 	-- id = 10
 	-- region IN ('Chennai', 'Bangalore')
-	-- <, <=, >, >=, <>, IS NULL, IS NOT NULL, LIKE, BETWEEN
+	-- <, <=, >, >=, <>, 
+    -- IS NULL, IS NOT NULL, 
+    -- LIKE, BETWEEN
 	-- AND OR NOT
 GROUP BY
     -- region
@@ -65,7 +68,8 @@ ORDER BY
 - [MAX](./SQL-AGG.sql#L47)
 
 ### GROUP BY
-- using single column
-- using multiple columns
+- [Filter then Group](./SQL-GroupBy-Having.sql#L52)
+- [Single column](./SQL-GroupBy-Having.sql#L26)
+- [Multiple columns](./SQL-GroupBy-Having.sql#L70)
 
 ### HAVING
