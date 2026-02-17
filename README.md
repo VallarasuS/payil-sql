@@ -1,5 +1,28 @@
 # SQL
 
+```SQL
+SELECT 
+	-- 	*
+	-- 	id, product, price
+	--  MAX(price), COUNT, MIN, MAX, AVG, SUM
+	-- 	price * 100
+FROM 
+	sales
+WHERE
+	-- id = 10
+	-- region IN ('Chennai', 'Bangalore')
+	-- <, <=, >, >=, <>, IS NULL, IS NOT NULL, LIKE, BETWEEN
+	-- AND OR NOT
+GROUP BY
+    -- region
+    -- region, category
+HAVING
+    -- SUM(quantity) > 5
+    -- SUM(price) > 1000
+ORDER BY
+    -- count desc
+```
+
 ### DDL
 
 ## Database & Table Basics
@@ -27,6 +50,11 @@
 - [DELETE](./SQL-DML.sql#L90)
 
 ### WHERE
+- [=, >, >=, <, <=, <>](./SQL-WHERE.sql#L33)
+- [IS NULL, IS NOT NULL](./SQL-WHERE.sql#L57)
+- [IN](./SQL-WHERE.sql#L70)
+- [LIKE](./SQL-WHERE.sql#L84)
+- [BETWEEN](./SQL-WHERE.sql#L77)
 
 ### GROUP BY
 

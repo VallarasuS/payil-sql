@@ -58,6 +58,12 @@ SELECT * FROM
     student 
 WHERE                           
     last_name IS NULL;       -- is null
+
+SELECT * FROM 
+    student 
+WHERE                           
+    last_name IS NOT NULL;       -- is not null
+
 ------------------------------------------------------------------------
 -- select students who are from Chennai or Madurai
 
