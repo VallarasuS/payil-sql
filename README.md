@@ -56,6 +56,16 @@ ORDER BY
 - [LIKE](./SQL-WHERE.sql#L84)
 - [BETWEEN](./SQL-WHERE.sql#L77)
 
+### Aggregation Functions
+
+- [AVG](./SQL-AGG.sql#L33)
+- [SUM](./SQL-AGG.sql#L26)
+- [COUNT](./SQL-AGG.sql#L19)
+- [MIN](./SQL-AGG.sql#L47)
+- [MAX](./SQL-AGG.sql#L47)
+
 ### GROUP BY
+- using single column
+- using multiple columns
 
 ### HAVING
