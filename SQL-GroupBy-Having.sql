@@ -84,3 +84,24 @@ GROUP BY
 	region, category;
 
 ------------------------------------------------------------------------
+-- after the grouping filter by the aggregated values
+
+SELECT 
+	region,
+	category,
+	COUNT(ID),
+	SUM(price), 
+	SUM(quantity), 
+	AVG(price), 
+	MAX(price), 
+	MIN(price) 
+FROM 
+	sales 
+WHERE 
+	region IN ('Chennai', 'Bengaluru')
+GROUP BY
+	region, category
+HAVING
+	SUM(price) > 1000;
+
+------------------------------------------------------------------------
