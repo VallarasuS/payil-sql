@@ -24,6 +24,10 @@ HAVING
     -- SUM(price) > 1000
 ORDER BY
     -- count desc
+LIMIT
+	-- 10, number, length
+OFFSET
+	-- 10, index
 ```
 
 ### DDL
