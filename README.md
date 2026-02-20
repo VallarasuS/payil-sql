@@ -14,16 +14,20 @@ WHERE
 	-- region IN ('Chennai', 'Bangalore')
 	-- <, <=, >, >=, <>, 
     -- IS NULL, IS NOT NULL, 
-    -- LIKE, BETWEEN
+    -- LIKE '%search%', BETWEEN 10 AND 20
 	-- AND OR NOT
 GROUP BY
-    -- region
-    -- region, category
+    -- region			 	<single-column>
+    -- region, category  	<multiple-columns>
 HAVING
     -- SUM(quantity) > 5
     -- SUM(price) > 1000
 ORDER BY
-    -- count desc
+    -- count DESC | ASC
+LIMIT
+	-- 10, number 	<length>
+OFFSET
+	-- 10, index	<zero-based-index>
 ```
 
 ### DDL
