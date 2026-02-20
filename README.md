@@ -98,7 +98,7 @@ CREATE TABLE employee (
 	lname 		VARCHAR(50) 	DEFAULT '',         -- default value
 	address 	VARCHAR(250) 	DEFAULT '',
 	city 		VARCHAR(100)	DEFAULT 'CHENNAI',
-	pincodO     VARCHAR(10)		DEFAULT '600001'
+	pincode     VARCHAR(10)		DEFAULT '600001'
 );
 ```
 
