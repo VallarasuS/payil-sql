@@ -16,13 +16,13 @@ INSERT INTO exam
     (id, fname, class, section, tamil, english, maths, physics, chemistry, biology) 
 VALUES
 (1, 'Arun Kumar S', '12', 'A',92,78,85,88,91,87),
-(2, 'Sneha R', '12', 'A',95,82,76,84,89,93),
-(3, 'Karthik M', '12', 'B',88,71,94,92,90,79),
+(2, 'Sneha R', '12', 'A',34,82,76,84,89,93),
+(3, 'Karthik M', '12', 'B',88,71,31,92,90,79),
 (4, 'Priya Dharshini V', '12', 'A',97,85,68,75,82,12),
 (5, 'Vishnu Prasad R', '12', 'A',84,69,91,87,85,81),
 (6, 'Aishwarya Lakshmi', '12', 'B',93,88,82,79,84,91),
 (7, 'Mohammed Ashik', '12', 'C',90,74,77,83,88,85),
-(8, 'Divya Shree', '12', 'B',96,81,73,76,80,94),
+(8, 'Divya Shree', '12', 'B',96,81,24,76,80,94),
 (9, 'Sanjay Rajan', '12', 'A',89,92,96,94,93,88),
 (10, 'Pooja Menon', '12', 'A',91,86,79,82,87,90),
 (11, 'Hariharan K', '12', 'C',87,75,89,91,86,83),
