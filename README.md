@@ -78,15 +78,64 @@ OFFSET
 
 ### HAVING
 
+```sql
+SELECT
+	category,
+	SUM(price) as "Value"
+FROM
+	sales
+GROUP BY
+	category
+HAVING
+	SUM(price) > 200		-- filter rows after grouping
+```
+
 ### ORDER BY
+
+```sql
+SELECT
+	product, price
+FROM
+	sales
+ORDER BY
+	price DESC;			-- ASC
+```
 
 ### LIMIT OFFSET
 
+```sql
+SELECT
+	product, price
+FROM
+	sales
+ORDER BY
+	price DESC
+LIMIT 10;				-- select 10 rows (first 10)
+```
+
+```sql
+SELECT
+	product, price
+FROM
+	sales
+ORDER BY
+	price DESC
+LIMIT 
+	10				-- select 10 rows
+OFFSET	
+	10;				-- select rows after first 10
+```
+
 ### COLUMN LABEL
 
-### DISTINCT
+```sql
+SELECT
+	product as "Item", price as "Value"		-- column label
+FROM
+	sales;
+```
 
-<!-- -------------------------------------------- -->
+### DISTINCT
 
 ### DEFAULT
 
