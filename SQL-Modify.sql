@@ -44,6 +44,9 @@ ALTER TABLE products
 ADD CHECK (offer_percent > 0);
 
 ALTER TABLE products
+ADD UNIQUE (id);
+
+ALTER TABLE products
 ADD CONSTRAINT products_id_unique UNIQUE(id);
 
 ALTER TABLE products
@@ -76,7 +79,13 @@ ALTER COLUMN offer_percent TYPE NUMERIC(2,2);
 ------------------------------------------------------------
 -- Renaming a Column
 
+ALTER TABLE products
+RENAME COLUMN offer_percent TO offers;
+
 ------------------------------------------------------------
 -- Renaming a Table
+
+ALTER TABLE products
+RENAME TO product;
 
 ------------------------------------------------------------

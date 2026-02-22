@@ -169,11 +169,11 @@ CREATE TABLE employee (
 
 ## DDL MODIFY TABLE, COLUMNS
 
-- Adding a Column
-- Removing a Column
-- Adding a Constraint
-- Removing a Constraint
-- Changing a Column's Default Value
-- Changing a Column's Data Type
-- Renaming a Column
-- Renaming a Table
+- [Adding a Column](./SQL-Modify.sql#L25)
+- [Removing a Column](./SQL-Modify.sql#L33)
+- [Adding a Constraint](./SQL-Modify.sql#L41)
+- [Removing a Constraint](./SQL-Modify.sql#L53)
+- [Changing a Column's Default Value](./SQL-Modify.sql#L62)
+- [Changing a Column's Data Type](./SQL-Modify.sql#L25)
+- [Renaming a Column](./SQL-Modify.sql#L25)
+- [Renaming a Table](./SQL-Modify.sql#L25)
