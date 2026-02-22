@@ -166,3 +166,14 @@ CREATE TABLE employee (
 	pincode     VARCHAR(10)		DEFAULT '600001'
 );
 ```
+
+## DDL MODIFY TABLE, COLUMNS
+
+- Adding a Column
+- Removing a Column
+- Adding a Constraint
+- Removing a Constraint
+- Changing a Column's Default Value
+- Changing a Column's Data Type
+- Renaming a Column
+- Renaming a Table
