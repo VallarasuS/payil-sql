@@ -9,6 +9,8 @@
 --        <query>
 --  $$
 
+-- DROP FUNCTION <function-name> (type)
+
 -- EXAMPLE 
 -- A function to increment input parameter by 1
 -- 5    -> 5  + 1   -> 6
@@ -36,6 +38,8 @@
 
  SELECT INCREMENT(10);
 
+ DROP FUNCTION increment (INT)
+
 ------------------------------------------------------------------------
 
 CREATE FUNCTION student_by_city (city varchar(50)) RETURNS TABLE (id INT, first_name VARCHAR(200))
@@ -53,4 +57,10 @@ SELECT * FROM student_by_city('Chennai')
 SELECT * FROM student_by_city('Madurai')
 SELECT * FROM student_by_city('Trichy')
 
+
+DROP FUNCTION student_by_city (VARCHAR)
+
+DROP FUNCTION increment_number(INT);
+DROP FUNCTION customer_count;
+DROP VIEW customer_orders;
 ------------------------------------------------------------------------

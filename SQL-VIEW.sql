@@ -14,6 +14,8 @@
 -- AS
 -- <QUERY>
 
+-- DROP VIEW <view-name>
+
 -- Example:
 
 -- CREATE VIEW chennai_student AS
