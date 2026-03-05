@@ -177,3 +177,11 @@ CREATE TABLE employee (
 - [Changing a Column's Data Type](./SQL-Modify.sql#L25)
 - [Renaming a Column](./SQL-Modify.sql#L25)
 - [Renaming a Table](./SQL-Modify.sql#L25)
+
+
+### PostgreSQL Functions
+
+- [String Functions](./SQL-FUNCTIONS.MD#L7-L8)
+- [Numeric / Math Functions](./SQL-FUNCTIONS.MD#L7-L25)
+- [Date / Time / Interval Functions](./SQL-FUNCTIONS.MD#L7-L43)
+- [Type Conversion & Formatting Functions](./SQL-FUNCTIONS.MD#L7-L60)
