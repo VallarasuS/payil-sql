@@ -22,14 +22,6 @@
 |------------|-------------------|------------|-------------|--------------|----------------|----------|
 | 3001       | OPPO Mobile Phone | 15000      | Electronics | OPPO         | 50             | 2001     |
 
-- Product_ID
-- Product_Name
-- Unit_Price
-- Category
-- Manufacturer
-- Stock_Quantity
-- Order_ID
-
 ### Tasks
 
 1. Create tables, with appropriate Primary and Foreign keys
