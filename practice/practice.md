@@ -26,4 +26,4 @@
 
 1. Create tables, with appropriate Primary and Foreign keys
 2. Add 'Phone_Number' column to Customers table
-3. Insert query to add customer info
+3. Write query to add rows to each table - INSERT
