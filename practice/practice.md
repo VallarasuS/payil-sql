@@ -26,4 +26,8 @@
 
 1. Create tables, with appropriate Primary and Foreign keys
 2. Add 'Phone_Number' column to Customers table
-3. Write query to add rows to each table - INSERT
+3. Insert query to add customer info
+4. Find number of orders placed by each customer from Orders table.
+5. Find all orders with order value not less than 10000 and not more than 25000
+6. Update city of one customer to "Chennai"
+7. Delete one customer
