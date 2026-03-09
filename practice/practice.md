@@ -24,10 +24,22 @@
 
 ### Tasks
 
+*6-MAR-2026*
+
 1. Create tables, with appropriate Primary and Foreign keys
 2. Add 'Phone_Number' column to Customers table
 3. Insert query to add customer info
+
+*7-MAR-2026*
+
 4. Find number of orders placed by each customer from Orders table.
 5. Find all orders with order value not less than 10000 and not more than 25000
 6. Update city of one customer to "Chennai"
 7. Delete one customer
+
+*9-MAR-2026*
+
+8. Find products from "Product Table" that are never ordered.
+9. Find customers detail who live in "Chennai" and ordered for more than 20,000
+10. Find "Customer_ID" and Total number of orders for each customer who have placed more than "two" orders
+11. Find top 5 customers by number of orders they have placed, along with their "First_name" and "email addresses"
