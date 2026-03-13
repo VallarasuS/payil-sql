@@ -43,3 +43,9 @@
 9. Find customers detail who live in "Chennai" and ordered for more than 20,000
 10. Find "Customer_ID" and Total number of orders for each customer who have placed more than "two" orders
 11. Find top 5 customers by number of orders they have placed, along with their "First_name" and "email addresses"
+
+*12-MAR-2026*
+
+12. Find all customers who have placed orders in the month of January this year.
+13. Find total number of orders placed and average “order amount" for each city.
+14. Find products that are ordered on weekends, and customer details who had ordered them.
