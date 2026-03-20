@@ -49,3 +49,10 @@
 12. Find all customers who have placed orders in the month of January this year.
 13. Find total number of orders placed and average “order amount" for each city.
 14. Find products that are ordered on weekends, and customer details who had ordered them.
+
+*20-MAR-2026*
+
+15. Find most expensive product with price and customer details (Customer_ID, First_Name) who have ordered it.
+16. List all customers with their orders count in the format "Customer (Order Count)". ex: ARUN kumar (3)
+17. Find all customers who live in Chennai and have ordered second most expensive product.
+18. Get total revenue from each customer, and label customer as 'High Spender' if they have spent more than 50,000, otherwise 'Low Spender'.
