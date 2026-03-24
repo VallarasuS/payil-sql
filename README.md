@@ -12,6 +12,10 @@ SELECT
 FROM 
 	-- sales
     -- table
+JOIN
+	-- orders o
+ON
+	-- c.id = o.customer_id;
 WHERE
 	-- id = 10
 	-- region IN ('Chennai', 'Bangalore')
