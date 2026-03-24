@@ -6,6 +6,9 @@ SELECT
 	-- 	id, product, price
 	--  MAX(price), COUNT, MIN, MAX, AVG, SUM
 	-- 	price * 100
+	--  EXTRACT(DOW FROM CURRENT_DATE)
+	--  EXTRACT(DAY FROM CURRENT_DATE)
+	--  FORMAT('Rupees: %s', price)
 FROM 
 	-- sales
     -- table
