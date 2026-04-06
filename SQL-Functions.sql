@@ -63,4 +63,23 @@ DROP FUNCTION student_by_city (VARCHAR)
 DROP FUNCTION increment_number(INT);
 DROP FUNCTION customer_count;
 DROP VIEW customer_orders;
+
+------------------------------------------------------------------------
+
+CREATE OR REPLACE FUNCTION segment(customer_id INTEGER) RETURNS VARCHAR
+LANGUAGE PLPGSQL
+AS $$
+DECLARE 
+    amount NUMERIC;
+BEGIN
+    SELECT SUM(price) into amount from Sales WHERE id = customer_id;
+    IF amount >= 50000 THEN
+	       RETURN 'High Spender';
+	   ELSE
+        RETURN 'Low Spender';
+	   END IF;
+END;
+$$
+
+SELECT SEGMENT(101);
 ------------------------------------------------------------------------
