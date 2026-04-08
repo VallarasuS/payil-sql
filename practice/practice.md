@@ -56,3 +56,13 @@
 16. List all customers with their orders count in the format "Customer (Order Count)". ex: ARUN kumar (3)
 17. Find all customers who live in Chennai and have ordered second most expensive product.
 18. Get total revenue from each customer, and label customer as 'High Spender' if they have spent more than 50,000, otherwise 'Low Spender'.
+
+*08-APR-2026*
+
+19. Find total number of orders placed by each customer for each month in the year.
+20. Find all customers who meet the following conditions
+ - Condition 1: City is neither either 'Chennai' nor 'Trichy'.
+ - Condition 2: Email domain is '@yahoo.com'.
+ - Condition 3: Customer has at least one order.
+ - Sort results in alphabetical order by last name in descending order, followed by first name in
+ascending order.
